@@ -53,7 +53,6 @@
     <ip vendor="xilinx.com" library="ip" name="xdma">
       <user_parameters>
         <user_parameter name="CONFIG.mode_selection" value="Advanced" /> 
-        <user_parameter name="CONFIG.pcie_blk_locn" value="X1Y0" /> 
         <user_parameter name="CONFIG.pl_link_cap_max_link_width" value="X1" /> 
         <user_parameter name="CONFIG.pl_link_cap_max_link_speed" value="8.0_GT/s" /> 
         <user_parameter name="CONFIG.ref_clk_freq" value="250_MHz" />
@@ -63,7 +62,6 @@
     <ip vendor="xilinx.com" library="ip" name="pcie4_uscale_plus">
       <user_parameters>
         <user_parameter name="CONFIG.mode_selection" value="Advanced" />
-        <user_parameter name="CONFIG.pcie_blk_locn" value="X1Y0" />
         <user_parameter name="CONFIG.PL_LINK_CAP_MAX_LINK_WIDTH" value="X1" />
         <user_parameter name="CONFIG.PL_LINK_CAP_MAX_LINK_SPEED" value="8.0_GT/s" />
         <user_parameter name="CONFIG.REF_CLK_FREQ" value="250_MHz" />
@@ -75,7 +73,6 @@
     <ip vendor="xilinx.com" library="ip" name="xdma">
       <user_parameters>
         <user_parameter name="CONFIG.mode_selection" value="Advanced" /> 
-        <user_parameter name="CONFIG.pcie_blk_locn" value="X1Y0" /> 
         <user_parameter name="CONFIG.pl_link_cap_max_link_width" value="X2" /> 
         <user_parameter name="CONFIG.pl_link_cap_max_link_speed" value="8.0_GT/s" /> 
         <user_parameter name="CONFIG.ref_clk_freq" value="250_MHz" />
@@ -83,7 +80,6 @@
     </ip><ip vendor="xilinx.com" library="ip" name="pcie4_uscale_plus">
       <user_parameters>
         <user_parameter name="CONFIG.mode_selection" value="Advanced" />
-        <user_parameter name="CONFIG.pcie_blk_locn" value="X1Y0" />
         <user_parameter name="CONFIG.PL_LINK_CAP_MAX_LINK_WIDTH" value="X2" />
         <user_parameter name="CONFIG.PL_LINK_CAP_MAX_LINK_SPEED" value="8.0_GT/s" />
         <user_parameter name="CONFIG.REF_CLK_FREQ" value="250_MHz" />
@@ -95,7 +91,6 @@
      <ip vendor="xilinx.com" library="ip" name="xdma">
       <user_parameters>
         <user_parameter name="CONFIG.mode_selection" value="Advanced" /> 
-        <user_parameter name="CONFIG.pcie_blk_locn" value="X1Y0" /> 
         <user_parameter name="CONFIG.pl_link_cap_max_link_width" value="X4" /> 
         <user_parameter name="CONFIG.pl_link_cap_max_link_speed" value="8.0_GT/s" /> 
         <user_parameter name="CONFIG.ref_clk_freq" value="250_MHz" />
@@ -103,7 +98,6 @@
     </ip><ip vendor="xilinx.com" library="ip" name="pcie4_uscale_plus">
       <user_parameters>
         <user_parameter name="CONFIG.mode_selection" value="Advanced" />
-        <user_parameter name="CONFIG.pcie_blk_locn" value="X1Y0" />
         <user_parameter name="CONFIG.PL_LINK_CAP_MAX_LINK_WIDTH" value="X4" />
         <user_parameter name="CONFIG.PL_LINK_CAP_MAX_LINK_SPEED" value="8.0_GT/s" />
         <user_parameter name="CONFIG.REF_CLK_FREQ" value="250_MHz" />

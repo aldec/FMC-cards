@@ -4,7 +4,7 @@
 	<compatible_board_revisions>
 		<revision id="0">1.0</revision>
 	</compatible_board_revisions>
-	<file_version>1.0</file_version>
+	<file_version>1.1</file_version>
 	<description>Aldec FMC-INTF</description>
 	
 	<components>
@@ -530,8 +530,9 @@
 				      </pin_maps>
 				    </port_map>
 				  </port_maps>
-				  <parameters>
-				    <parameter name="block_location" value="X1Y0" />
+					  <parameters>
+					<!-- Check which PCIE blocks are available in FPGA chip. Set value to X0Y0 or X1Y0 -->
+				    <parameter name="block_location" value="X0Y0" />
 				  </parameters>
 				</interface>
 
@@ -566,7 +567,8 @@
 				    </port_map>
 				  </port_maps>
 				  <parameters>
-				    <parameter name="block_location" value="X1Y0" />
+					<!-- Check which PCIE blocks are available in FPGA chip. Set value to X0Y0 or X1Y0 -->
+				    <parameter name="block_location" value="X0Y0" />
 				  </parameters>
 				</interface>
 
@@ -609,7 +611,8 @@
 				    </port_map>
 				  </port_maps>
 				  <parameters>
-				    <parameter name="block_location" value="X1Y0" />
+					<!-- Check which PCIE blocks are available in FPGA chip. Set value to X0Y0 or X1Y0 -->
+				    <parameter name="block_location" value="X0Y0" />
 				  </parameters>
 				</interface>
 
